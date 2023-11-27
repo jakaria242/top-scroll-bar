@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.bar{
+    height: 20px;
+    width: 0;
+    background: #7d05f5;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.round{
+    height: 100px;
+    width: 100px;
+    border: 10px solid teal;
+    background: #000;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.one{
+    height: 700px;
+    background: red;
+        font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.two{
+    height: 700px;
+    background: blue;
+        font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three{
+    height: 700px;
+    background: green;
+        font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fore{
+    height: 700px;
+    background: yellow;
+        font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five{
+    height: 700px;
+    background: pink;
+        font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.six{
+    height: 700px;
+    background: rgb(0, 183, 255);
+        font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seven{
+    height: 700px;
+    background: rgb(255, 0, 179);
+        font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eight{
+    height: 700px;
+    background: rgb(2, 59, 12);
+        font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nine{
+    height: 700px;
+    background: rgb(255, 166, 0);
+        font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ten{
+    height: 700px;
+    background: black;
+        font-size: 70px;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    padding: 20px 30px;
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    left: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: 0;
+    display: none;
+}
